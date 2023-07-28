@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.principal {
+    display: flex;
+    width: 90%;
+    height: 95%;
+    flex-wrap: wrap;
+}
+
+.receitas {
+    background-color: white;
+    width: 30%;
+    height: 90%;
+    margin: auto;
+}
+
+.receitas img {    
+    width: 80%;
+    height: 33%;
+    margin: 5px;
+}
+
+.principal p{
+    font-size: 15px;
+}
