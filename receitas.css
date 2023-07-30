@@ -28,3 +28,17 @@ main {
 .principal p{
     font-size: 15px;
 }
+
+.receitas p {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.cards-receitas p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+
+
