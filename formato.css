@@ -1,34 +1,21 @@
-body {
-    overflow-y: auto;
-    height: 100vh;
+
+.menu {
+    font-size: 30px;
 }
 
-.cabecalho {
-    height: 60px;
-    width: 100%;
+.logo-size {
+    width: 140px;
+    height: 140px;
 }
     
 
 .logotipo {
-    width: 50px;
-    height: 50px;
+    width: 350px;
+    height: 350px;
 }
 
-.titulo {
-    display: flex;
-    justify-content: center;
-    padding: 200px 0 50px 0;
-}
-
-.principal {
-    
+.principal {    
     height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    overflow-y: auto;
 }
 
 main {
@@ -38,8 +25,7 @@ main {
 }
 
 main p {
-    font-size: 23px;
-    
+    font-size: 23px;    
 }
 
 
@@ -53,6 +39,10 @@ main p {
     left: 0;
     text-align: center;
     z-index: 1;
+}
+
+.fonte-borel {
+    font-family: 'Borel', cursive;
 }
 
 
