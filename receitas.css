@@ -1,22 +1,8 @@
 main {
     display: flex;
     justify-content: center;
-    overflow-y: scroll;
-
-}
-
-.principal {
-    display: flex;
-    width: 90%;
-    height: 95%;
     flex-wrap: wrap;
-}
-
-.receitas {
-    background-color: white;
-    width: 30%;
-    height: 90%;
-    margin: auto;
+    
 }
 
 .receitas img {    
@@ -25,20 +11,16 @@ main {
     margin: 5px;
 }
 
-.principal p{
-    font-size: 15px;
+
+.cards-receitas li {
+    text-align: center;
+    font-size: 17px;
 }
 
-.receitas p {
-    font-size: 15px;
-    margin: 5px;
+.receita-titulo {
+    font-size: 22px;
+    font-weight: bold;
 }
-
-.cards-receitas p {
-    text-align: justify;
-    font-size: 20px;
-}
-
 
 
 

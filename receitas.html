@@ -9,15 +9,17 @@
     <link rel="stylesheet" href="receitas.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Borel&family=Handjet&family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
 </head>
 
 <body style="background-color: rgb(212, 104, 3);">
-    <header>
-
+    <header class="cabecalho">
         <nav>
-            <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+            <nav class="navbar navbar-expand-lg fonte-borel menu">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Smith</a>
+                    <a class="navbar-brand" href="#"><img class="logo-size" src="./Logo.png" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -38,22 +40,22 @@
                     </div>
                 </div>
             </nav>
-
     </header>
 
     <main>
-        <div class="container row mxreceitas justify-content-center align-items-center cards-receitas">
+        <div class="container row justify-content-center align-items-center cards-receitas">
 
             <div class="col-md card m-3">
                 <img src="/img/arroz.jpeg" class="card-img-top my-3" alt="..." style="height: 200px;">
                 <div class="card-body">
-                    <p class="card-title">Arroz de Couve-Flor</p>
+                    <p class="card-title receita-titulo">Arroz de Couve-Flor</p>
                     <p class="card-text">
                     <ul>
                         <li>Arroz</li>
                         <li>Couve-flor</li>
                         <li>Cebola</li>
                         <li>Azeita</li>
+                        <li>Açafrão da Terra</li>
                     </ul>
                     </p>
                     <hr>
@@ -65,10 +67,10 @@
                 </div>
             </div>
 
-            <div class="col-md card m-3" >
+            <div class="col-md card m-3">
                 <img src="/img/bolo.jpeg" class="card-img-top my-3" alt="..." style="height: 200px;">
                 <div class="card-body">
-                    <p class="card-title">Bolo de Café</p>
+                    <p class="card-title receita-titulo">Bolo de Café</p>
                     <p class="card-text">
                     <ul>
                         <li>Farinha de Trigo</li>
@@ -90,7 +92,7 @@
             <div class="col-md card m-3">
                 <img src="/img/coxinha.jpeg" class="card-img-top my-3" alt="..." style="height: 200px;">
                 <div class="card-body">
-                    <p class="card-title">Coxinha de Brigadeiro</p>
+                    <p class="card-title receita-titulo">Coxinha de Brigadeiro</p>
                     <p class="card-text">
                     <ul>
                         <li>Leite Condensado</li>
